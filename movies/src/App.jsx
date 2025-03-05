@@ -8,7 +8,6 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <MovieProvider>
-      <Router>
         <NavBar />
         <main className="main-content">
           <Routes>
@@ -16,7 +15,6 @@ function App() {
             <Route path="/favorites" element={<Favorites />} />
           </Routes>
         </main>
-      </Router>
     </MovieProvider>
   );
 }
