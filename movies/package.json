@@ -9,8 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://github.com/gizemcell/react-movie-hub.git"
-  ,
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
